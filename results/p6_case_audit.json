@@ -1,0 +1,164 @@
+{
+  "note": "six shipments, raw LEMIS rows, whole-animal scope, test 2019-2022",
+  "cases": [
+    {
+      "size": "small",
+      "control_number": "2019557007",
+      "rows": 1,
+      "qty_raw": 1.0,
+      "qty_capped": 1.0,
+      "refused": true,
+      "refused_qty": 1.0,
+      "refused_animals_capped": 1.0,
+      "year": 2019,
+      "date": "2019-06-02T00:00:00Z",
+      "port": "SY",
+      "origin": "Ctry_MX",
+      "match_analysis": true,
+      "detail": [
+        {
+          "species": "Centrochelys sulcata",
+          "quantity": "1",
+          "description": "LIV",
+          "action": "R",
+          "disposition": "S",
+          "disposition_date": "2019-06-02T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "size": "small",
+      "control_number": "2020709217",
+      "rows": 2,
+      "qty_raw": 2.0,
+      "qty_capped": 2.0,
+      "refused": false,
+      "refused_qty": 0.0,
+      "refused_animals_capped": 0.0,
+      "year": 2020,
+      "date": "2020-02-18T00:00:00Z",
+      "port": "MI",
+      "origin": "Ctry_HR",
+      "match_analysis": true,
+      "detail": [
+        {
+          "species": "Testudo hermanni",
+          "quantity": "1",
+          "description": "LIV",
+          "action": "C",
+          "disposition": "C",
+          "disposition_date": "2020-02-19T00:00:00Z"
+        },
+        {
+          "species": "Testudo hermanni",
+          "quantity": "1",
+          "description": "LIV",
+          "action": "C",
+          "disposition": "C",
+          "disposition_date": "2020-02-19T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "size": "small",
+      "control_number": "2019653379",
+      "rows": 1,
+      "qty_raw": 4.0,
+      "qty_capped": 4.0,
+      "refused": true,
+      "refused_qty": 4.0,
+      "refused_animals_capped": 4.0,
+      "year": 2019,
+      "date": "2019-08-07T00:00:00Z",
+      "port": "HN",
+      "origin": "Ctry_VN",
+      "match_analysis": true,
+      "detail": [
+        {
+          "species": "Ambystoma mexicanum",
+          "quantity": "4",
+          "description": "LIV",
+          "action": "R",
+          "disposition": "S",
+          "disposition_date": "2019-08-07T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "size": "large",
+      "control_number": "2020776900",
+      "rows": 1,
+      "qty_raw": 1260.0,
+      "qty_capped": 1260.0,
+      "refused": true,
+      "refused_qty": 1260.0,
+      "refused_animals_capped": 1260.0,
+      "year": 2020,
+      "date": "2020-08-23T00:00:00Z",
+      "port": "LA",
+      "origin": "Ctry_PE",
+      "match_analysis": true,
+      "detail": [
+        {
+          "species": "Podocnemis unifilis",
+          "quantity": "1260",
+          "description": "LIV",
+          "action": "R",
+          "disposition": "R",
+          "disposition_date": "2020-08-23T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "size": "large",
+      "control_number": "2020832787",
+      "rows": 1,
+      "qty_raw": 10397.0,
+      "qty_capped": 10000.0,
+      "refused": false,
+      "refused_qty": 0.0,
+      "refused_animals_capped": 0.0,
+      "year": 2020,
+      "date": "2020-12-29T00:00:00Z",
+      "port": "SY",
+      "origin": "Ctry_MX",
+      "match_analysis": true,
+      "detail": [
+        {
+          "species": "Hippocampus ingens",
+          "quantity": "10397",
+          "description": "BOD",
+          "action": "C",
+          "disposition": "C",
+          "disposition_date": "2020-12-29T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "size": "large",
+      "control_number": "2020777183",
+      "rows": 1,
+      "qty_raw": 10000.0,
+      "qty_capped": 10000.0,
+      "refused": true,
+      "refused_qty": 10000.0,
+      "refused_animals_capped": 10000.0,
+      "year": 2020,
+      "date": "2020-08-23T00:00:00Z",
+      "port": "LA",
+      "origin": "Ctry_PE",
+      "match_analysis": true,
+      "detail": [
+        {
+          "species": "Podocnemis unifilis",
+          "quantity": "10000",
+          "description": "LIV",
+          "action": "R",
+          "disposition": "R",
+          "disposition_date": "2020-08-23T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "all_match": true
+}

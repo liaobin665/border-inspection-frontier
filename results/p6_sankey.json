@@ -1,0 +1,6881 @@
+{
+  "scope": {
+    "years": [
+      2019,
+      2022
+    ],
+    "cap": 10000.0,
+    "bands": {
+      "1": "1–10",
+      "2": "11–100",
+      "3": "101–1000",
+      "4": ">1000"
+    },
+    "rows_all": 230791,
+    "refused_rows": 2486,
+    "refused_animals_raw": 1297480.0,
+    "refused_animals_capped": 212670.0,
+    "n_countries": 87,
+    "n_ports": 41,
+    "n_flows": 492
+  },
+  "bands": [
+    {
+      "band": 4,
+      "refu_rows": 30,
+      "cap_animals": 102927.0,
+      "raw_animals": 1187737.0,
+      "share_ticket": 0.012067578439259855,
+      "share_animal": 0.4839751728029341,
+      "rank_ticket": 4,
+      "rank_animal": 1,
+      "label": ">1000"
+    },
+    {
+      "band": 3,
+      "refu_rows": 264,
+      "cap_animals": 65552.0,
+      "raw_animals": 65552.0,
+      "share_ticket": 0.10619469026548672,
+      "share_animal": 0.30823341326938447,
+      "rank_ticket": 3,
+      "rank_animal": 2,
+      "label": "101–1000"
+    },
+    {
+      "band": 2,
+      "refu_rows": 893,
+      "cap_animals": 39156.0,
+      "raw_animals": 39156.0,
+      "share_ticket": 0.3592115848753017,
+      "share_animal": 0.18411623642262662,
+      "rank_ticket": 2,
+      "rank_animal": 3,
+      "label": "11–100"
+    },
+    {
+      "band": 1,
+      "refu_rows": 1299,
+      "cap_animals": 5035.0,
+      "raw_animals": 5035.0,
+      "share_ticket": 0.5225261464199518,
+      "share_animal": 0.02367517750505478,
+      "rank_ticket": 1,
+      "rank_animal": 4,
+      "label": "1–10"
+    }
+  ],
+  "countries": [
+    {
+      "org": "Ctry_TW",
+      "refu_rows": 76,
+      "cap_animals": 29166.0,
+      "raw_animals": 29166.0,
+      "share_ticket": 0.030571198712791632,
+      "share_animal": 0.13714205106503033,
+      "rank_ticket": 9,
+      "rank_animal": 1,
+      "name": "Ctry_TW"
+    },
+    {
+      "org": "Ctry_CN",
+      "refu_rows": 220,
+      "cap_animals": 27481.0,
+      "raw_animals": 27481.0,
+      "share_ticket": 0.08849557522123894,
+      "share_animal": 0.1292189777589693,
+      "rank_ticket": 3,
+      "rank_animal": 2,
+      "name": "Ctry_CN"
+    },
+    {
+      "org": "Ctry_PE",
+      "refu_rows": 138,
+      "cap_animals": 21162.0,
+      "raw_animals": 21162.0,
+      "share_ticket": 0.05551086082059534,
+      "share_animal": 0.09950627733107631,
+      "rank_ticket": 4,
+      "rank_animal": 3,
+      "name": "Ctry_PE"
+    },
+    {
+      "org": "Ctry_MX",
+      "refu_rows": 115,
+      "cap_animals": 19501.0,
+      "raw_animals": 39311.0,
+      "share_ticket": 0.04625905068382945,
+      "share_animal": 0.09169605492076927,
+      "rank_ticket": 6,
+      "rank_animal": 4,
+      "name": "Ctry_MX"
+    },
+    {
+      "org": "Ctry_XX",
+      "refu_rows": 411,
+      "cap_animals": 17126.0,
+      "raw_animals": 17126.0,
+      "share_ticket": 0.16532582461786002,
+      "share_animal": 0.08052851836178117,
+      "rank_ticket": 2,
+      "rank_animal": 5,
+      "name": "Unknown origin"
+    },
+    {
+      "org": "Ctry_ID",
+      "refu_rows": 482,
+      "cap_animals": 14805.0,
+      "raw_animals": 14805.0,
+      "share_ticket": 0.19388576025744167,
+      "share_animal": 0.06961489631823953,
+      "rank_ticket": 1,
+      "rank_animal": 6,
+      "name": "Ctry_ID"
+    },
+    {
+      "org": "Ctry_BE",
+      "refu_rows": 8,
+      "cap_animals": 11321.0,
+      "raw_animals": 1076321.0,
+      "share_ticket": 0.003218020917135961,
+      "share_animal": 0.05323270795128603,
+      "rank_ticket": 35,
+      "rank_animal": 7,
+      "name": "Ctry_BE"
+    },
+    {
+      "org": "Ctry_TR",
+      "refu_rows": 2,
+      "cap_animals": 10000.0,
+      "raw_animals": 10000.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.04702120656416044,
+      "rank_ticket": 57,
+      "rank_animal": 8,
+      "name": "Ctry_TR"
+    },
+    {
+      "org": "Ctry_TH",
+      "refu_rows": 104,
+      "cap_animals": 7653.0,
+      "raw_animals": 7653.0,
+      "share_ticket": 0.0418342719227675,
+      "share_animal": 0.035985329383551985,
+      "rank_ticket": 7,
+      "rank_animal": 9,
+      "name": "Ctry_TH"
+    },
+    {
+      "org": "Ctry_MG",
+      "refu_rows": 28,
+      "cap_animals": 6556.0,
+      "raw_animals": 6556.0,
+      "share_ticket": 0.011263073209975865,
+      "share_animal": 0.030827103023463583,
+      "rank_ticket": 14,
+      "rank_animal": 10,
+      "name": "Ctry_MG"
+    },
+    {
+      "org": "Ctry_DE",
+      "refu_rows": 132,
+      "cap_animals": 6046.0,
+      "raw_animals": 6046.0,
+      "share_ticket": 0.05309734513274336,
+      "share_animal": 0.0284290214886914,
+      "rank_ticket": 5,
+      "rank_animal": 11,
+      "name": "Ctry_DE"
+    },
+    {
+      "org": "Ctry_EG",
+      "refu_rows": 54,
+      "cap_animals": 5129.0,
+      "raw_animals": 5129.0,
+      "share_ticket": 0.02172164119066774,
+      "share_animal": 0.024117176846757887,
+      "rank_ticket": 11,
+      "rank_animal": 12,
+      "name": "Ctry_EG"
+    },
+    {
+      "org": "Ctry_TG",
+      "refu_rows": 47,
+      "cap_animals": 4200.0,
+      "raw_animals": 4200.0,
+      "share_ticket": 0.018905872888173775,
+      "share_animal": 0.019748906756947383,
+      "rank_ticket": 12,
+      "rank_animal": 13,
+      "name": "Ctry_TG"
+    },
+    {
+      "org": "Ctry_UA",
+      "refu_rows": 24,
+      "cap_animals": 3227.0,
+      "raw_animals": 3227.0,
+      "share_ticket": 0.009654062751407884,
+      "share_animal": 0.015173743358254574,
+      "rank_ticket": 18,
+      "rank_animal": 14,
+      "name": "Ctry_UA"
+    },
+    {
+      "org": "Ctry_CF",
+      "refu_rows": 14,
+      "cap_animals": 3151.0,
+      "raw_animals": 3151.0,
+      "share_ticket": 0.0056315366049879325,
+      "share_animal": 0.014816382188366953,
+      "rank_ticket": 24,
+      "rank_animal": 15,
+      "name": "Ctry_CF"
+    },
+    {
+      "org": "Ctry_CG",
+      "refu_rows": 4,
+      "cap_animals": 3005.0,
+      "raw_animals": 3005.0,
+      "share_ticket": 0.0016090104585679806,
+      "share_animal": 0.01412987257253021,
+      "rank_ticket": 48,
+      "rank_animal": 16,
+      "name": "Ctry_CG"
+    },
+    {
+      "org": "Ctry_AU",
+      "refu_rows": 88,
+      "cap_animals": 2913.0,
+      "raw_animals": 2913.0,
+      "share_ticket": 0.035398230088495575,
+      "share_animal": 0.013697277472139936,
+      "rank_ticket": 8,
+      "rank_animal": 17,
+      "name": "Ctry_AU"
+    },
+    {
+      "org": "Ctry_VN",
+      "refu_rows": 27,
+      "cap_animals": 2175.0,
+      "raw_animals": 2175.0,
+      "share_ticket": 0.01086082059533387,
+      "share_animal": 0.010227112427704894,
+      "rank_ticket": 16,
+      "rank_animal": 18,
+      "name": "Ctry_VN"
+    },
+    {
+      "org": "Ctry_JP",
+      "refu_rows": 7,
+      "cap_animals": 1861.0,
+      "raw_animals": 1861.0,
+      "share_ticket": 0.0028157683024939663,
+      "share_animal": 0.008750646541590258,
+      "rank_ticket": 37,
+      "rank_animal": 19,
+      "name": "Ctry_JP"
+    },
+    {
+      "org": "Ctry_MY",
+      "refu_rows": 27,
+      "cap_animals": 1742.0,
+      "raw_animals": 1742.0,
+      "share_ticket": 0.01086082059533387,
+      "share_animal": 0.008191094183476749,
+      "rank_ticket": 16,
+      "rank_animal": 20,
+      "name": "Ctry_MY"
+    },
+    {
+      "org": "Ctry_KR",
+      "refu_rows": 11,
+      "cap_animals": 1324.0,
+      "raw_animals": 1324.0,
+      "share_ticket": 0.004424778761061947,
+      "share_animal": 0.006225607749094842,
+      "rank_ticket": 31,
+      "rank_animal": 21,
+      "name": "Ctry_KR"
+    },
+    {
+      "org": "Ctry_IN",
+      "refu_rows": 6,
+      "cap_animals": 1306.0,
+      "raw_animals": 1306.0,
+      "share_ticket": 0.002413515687851971,
+      "share_animal": 0.006140969577279353,
+      "rank_ticket": 39,
+      "rank_animal": 22,
+      "name": "Ctry_IN"
+    },
+    {
+      "org": "Ctry_PH",
+      "refu_rows": 22,
+      "cap_animals": 976.0,
+      "raw_animals": 976.0,
+      "share_ticket": 0.008849557522123894,
+      "share_animal": 0.0045892697606620585,
+      "rank_ticket": 19,
+      "rank_animal": 23,
+      "name": "Ctry_PH"
+    },
+    {
+      "org": "Ctry_CD",
+      "refu_rows": 5,
+      "cap_animals": 796.0,
+      "raw_animals": 796.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 0.0037428880425071707,
+      "rank_ticket": 43,
+      "rank_animal": 24,
+      "name": "Ctry_CD"
+    },
+    {
+      "org": "Ctry_NI",
+      "refu_rows": 8,
+      "cap_animals": 767.0,
+      "raw_animals": 767.0,
+      "share_ticket": 0.003218020917135961,
+      "share_animal": 0.0036065265434711054,
+      "rank_ticket": 35,
+      "rank_animal": 25,
+      "name": "Ctry_NI"
+    },
+    {
+      "org": "Ctry_BR",
+      "refu_rows": 38,
+      "cap_animals": 703.0,
+      "raw_animals": 703.0,
+      "share_ticket": 0.015285599356395816,
+      "share_animal": 0.003305590821460479,
+      "rank_ticket": 13,
+      "rank_animal": 26,
+      "name": "Ctry_BR"
+    },
+    {
+      "org": "Ctry_HK",
+      "refu_rows": 12,
+      "cap_animals": 595.0,
+      "raw_animals": 595.0,
+      "share_ticket": 0.004827031375703942,
+      "share_animal": 0.002797761790567546,
+      "rank_ticket": 27,
+      "rank_animal": 27,
+      "name": "Ctry_HK"
+    },
+    {
+      "org": "Ctry_CA",
+      "refu_rows": 28,
+      "cap_animals": 535.0,
+      "raw_animals": 535.0,
+      "share_ticket": 0.011263073209975865,
+      "share_animal": 0.002515634551182583,
+      "rank_ticket": 14,
+      "rank_animal": 28,
+      "name": "Ctry_CA"
+    },
+    {
+      "org": "Ctry_JM",
+      "refu_rows": 1,
+      "cap_animals": 530.0,
+      "raw_animals": 530.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.002492123947900503,
+      "rank_ticket": 73,
+      "rank_animal": 29,
+      "name": "Ctry_JM"
+    },
+    {
+      "org": "Ctry_DO",
+      "refu_rows": 20,
+      "cap_animals": 484.0,
+      "raw_animals": 484.0,
+      "share_ticket": 0.008045052292839904,
+      "share_animal": 0.002275826397705365,
+      "rank_ticket": 20,
+      "rank_animal": 30,
+      "name": "Ctry_DO"
+    },
+    {
+      "org": "Ctry_GB",
+      "refu_rows": 14,
+      "cap_animals": 470.0,
+      "raw_animals": 470.0,
+      "share_ticket": 0.0056315366049879325,
+      "share_animal": 0.0022099967085155406,
+      "rank_ticket": 24,
+      "rank_animal": 31,
+      "name": "Ctry_GB"
+    },
+    {
+      "org": "Ctry_PA",
+      "refu_rows": 2,
+      "cap_animals": 457.0,
+      "raw_animals": 457.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.002148869139982132,
+      "rank_ticket": 57,
+      "rank_animal": 32,
+      "name": "Ctry_PA"
+    },
+    {
+      "org": "Ctry_LK",
+      "refu_rows": 4,
+      "cap_animals": 374.0,
+      "raw_animals": 374.0,
+      "share_ticket": 0.0016090104585679806,
+      "share_animal": 0.0017585931254996002,
+      "rank_ticket": 48,
+      "rank_animal": 33,
+      "name": "Ctry_LK"
+    },
+    {
+      "org": "Ctry_KE",
+      "refu_rows": 13,
+      "cap_animals": 368.0,
+      "raw_animals": 368.0,
+      "share_ticket": 0.005229283990345938,
+      "share_animal": 0.0017303804015611041,
+      "rank_ticket": 26,
+      "rank_animal": 34,
+      "name": "Ctry_KE"
+    },
+    {
+      "org": "Ctry_SB",
+      "refu_rows": 17,
+      "cap_animals": 364.0,
+      "raw_animals": 364.0,
+      "share_ticket": 0.006838294448913918,
+      "share_animal": 0.00171157191893544,
+      "rank_ticket": 22,
+      "rank_animal": 35,
+      "name": "Ctry_SB"
+    },
+    {
+      "org": "Ctry_TO",
+      "refu_rows": 64,
+      "cap_animals": 304.0,
+      "raw_animals": 304.0,
+      "share_ticket": 0.02574416733708769,
+      "share_animal": 0.0014294446795504773,
+      "rank_ticket": 10,
+      "rank_animal": 36,
+      "name": "Ctry_TO"
+    },
+    {
+      "org": "Ctry_BG",
+      "refu_rows": 5,
+      "cap_animals": 300.0,
+      "raw_animals": 300.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 0.001410636196924813,
+      "rank_ticket": 43,
+      "rank_animal": 37,
+      "name": "Ctry_BG"
+    },
+    {
+      "org": "Ctry_ML",
+      "refu_rows": 1,
+      "cap_animals": 280.0,
+      "raw_animals": 280.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.0013165937837964921,
+      "rank_ticket": 73,
+      "rank_animal": 38,
+      "name": "Ctry_ML"
+    },
+    {
+      "org": "Ctry_BY",
+      "refu_rows": 1,
+      "cap_animals": 257.0,
+      "raw_animals": 257.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.0012084450086989231,
+      "rank_ticket": 73,
+      "rank_animal": 39,
+      "name": "Ctry_BY"
+    },
+    {
+      "org": "Ctry_CO",
+      "refu_rows": 12,
+      "cap_animals": 232.0,
+      "raw_animals": 232.0,
+      "share_ticket": 0.004827031375703942,
+      "share_animal": 0.001090891992288522,
+      "rank_ticket": 27,
+      "rank_animal": 40,
+      "name": "Ctry_CO"
+    },
+    {
+      "org": "Ctry_HU",
+      "refu_rows": 3,
+      "cap_animals": 232.0,
+      "raw_animals": 232.0,
+      "share_ticket": 0.0012067578439259854,
+      "share_animal": 0.001090891992288522,
+      "rank_ticket": 53,
+      "rank_animal": 40,
+      "name": "Ctry_HU"
+    },
+    {
+      "org": "Ctry_NG",
+      "refu_rows": 11,
+      "cap_animals": 216.0,
+      "raw_animals": 216.0,
+      "share_ticket": 0.004424778761061947,
+      "share_animal": 0.0010156580617858655,
+      "rank_ticket": 31,
+      "rank_animal": 42,
+      "name": "Ctry_NG"
+    },
+    {
+      "org": "Ctry_FR",
+      "refu_rows": 7,
+      "cap_animals": 214.0,
+      "raw_animals": 214.0,
+      "share_ticket": 0.0028157683024939663,
+      "share_animal": 0.0010062538204730334,
+      "rank_ticket": 37,
+      "rank_animal": 43,
+      "name": "Ctry_FR"
+    },
+    {
+      "org": "Ctry_SG",
+      "refu_rows": 2,
+      "cap_animals": 205.0,
+      "raw_animals": 205.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.000963934734565289,
+      "rank_ticket": 57,
+      "rank_animal": 44,
+      "name": "Ctry_SG"
+    },
+    {
+      "org": "Ctry_RU",
+      "refu_rows": 6,
+      "cap_animals": 179.0,
+      "raw_animals": 179.0,
+      "share_ticket": 0.002413515687851971,
+      "share_animal": 0.0008416795974984718,
+      "rank_ticket": 39,
+      "rank_animal": 45,
+      "name": "Ctry_RU"
+    },
+    {
+      "org": "Ctry_SA",
+      "refu_rows": 4,
+      "cap_animals": 165.0,
+      "raw_animals": 165.0,
+      "share_ticket": 0.0016090104585679806,
+      "share_animal": 0.0007758499083086472,
+      "rank_ticket": 48,
+      "rank_animal": 46,
+      "name": "Ctry_SA"
+    },
+    {
+      "org": "Ctry_SK",
+      "refu_rows": 1,
+      "cap_animals": 160.0,
+      "raw_animals": 160.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.000752339305026567,
+      "rank_ticket": 73,
+      "rank_animal": 47,
+      "name": "Ctry_SK"
+    },
+    {
+      "org": "Ctry_PL",
+      "refu_rows": 3,
+      "cap_animals": 136.0,
+      "raw_animals": 136.0,
+      "share_ticket": 0.0012067578439259854,
+      "share_animal": 0.000639488409272582,
+      "rank_ticket": 53,
+      "rank_animal": 48,
+      "name": "Ctry_PL"
+    },
+    {
+      "org": "Ctry_US",
+      "refu_rows": 19,
+      "cap_animals": 132.0,
+      "raw_animals": 132.0,
+      "share_ticket": 0.007642799678197908,
+      "share_animal": 0.0006206799266469178,
+      "rank_ticket": 21,
+      "rank_animal": 49,
+      "name": "Ctry_US"
+    },
+    {
+      "org": "Ctry_PF",
+      "refu_rows": 2,
+      "cap_animals": 111.0,
+      "raw_animals": 111.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.0005219353928621809,
+      "rank_ticket": 57,
+      "rank_animal": 50,
+      "name": "Ctry_PF"
+    },
+    {
+      "org": "Ctry_BB",
+      "refu_rows": 1,
+      "cap_animals": 100.0,
+      "raw_animals": 100.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.00047021206564160437,
+      "rank_ticket": 73,
+      "rank_animal": 51,
+      "name": "Ctry_BB"
+    },
+    {
+      "org": "Ctry_KH",
+      "refu_rows": 5,
+      "cap_animals": 97.0,
+      "raw_animals": 97.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 0.0004561057036723562,
+      "rank_ticket": 43,
+      "rank_animal": 52,
+      "name": "Ctry_KH"
+    },
+    {
+      "org": "Ctry_GY",
+      "refu_rows": 4,
+      "cap_animals": 96.0,
+      "raw_animals": 96.0,
+      "share_ticket": 0.0016090104585679806,
+      "share_animal": 0.0004514035830159402,
+      "rank_ticket": 48,
+      "rank_animal": 53,
+      "name": "Ctry_GY"
+    },
+    {
+      "org": "Ctry_BZ",
+      "refu_rows": 2,
+      "cap_animals": 93.0,
+      "raw_animals": 93.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.0004372972210466921,
+      "rank_ticket": 57,
+      "rank_animal": 54,
+      "name": "Ctry_BZ"
+    },
+    {
+      "org": "Ctry_SV",
+      "refu_rows": 3,
+      "cap_animals": 83.0,
+      "raw_animals": 83.0,
+      "share_ticket": 0.0012067578439259854,
+      "share_animal": 0.0003902760144825316,
+      "rank_ticket": 53,
+      "rank_animal": 55,
+      "name": "Ctry_SV"
+    },
+    {
+      "org": "Ctry_BS",
+      "refu_rows": 10,
+      "cap_animals": 82.0,
+      "raw_animals": 82.0,
+      "share_ticket": 0.004022526146419952,
+      "share_animal": 0.00038557389382611556,
+      "rank_ticket": 33,
+      "rank_animal": 56,
+      "name": "Ctry_BS"
+    },
+    {
+      "org": "Ctry_IS",
+      "refu_rows": 1,
+      "cap_animals": 60.0,
+      "raw_animals": 60.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.0002821272393849626,
+      "rank_ticket": 73,
+      "rank_animal": 57,
+      "name": "Ctry_IS"
+    },
+    {
+      "org": "Ctry_NL",
+      "refu_rows": 17,
+      "cap_animals": 60.0,
+      "raw_animals": 60.0,
+      "share_ticket": 0.006838294448913918,
+      "share_animal": 0.0002821272393849626,
+      "rank_ticket": 22,
+      "rank_animal": 57,
+      "name": "Ctry_NL"
+    },
+    {
+      "org": "Ctry_ZW",
+      "refu_rows": 2,
+      "cap_animals": 55.0,
+      "raw_animals": 55.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.0002586166361028824,
+      "rank_ticket": 57,
+      "rank_animal": 59,
+      "name": "Ctry_ZW"
+    },
+    {
+      "org": "Ctry_GR",
+      "refu_rows": 2,
+      "cap_animals": 50.0,
+      "raw_animals": 50.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.00023510603282080218,
+      "rank_ticket": 57,
+      "rank_animal": 60,
+      "name": "Ctry_GR"
+    },
+    {
+      "org": "Ctry_SY",
+      "refu_rows": 1,
+      "cap_animals": 49.0,
+      "raw_animals": 49.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.00023040391216438613,
+      "rank_ticket": 73,
+      "rank_animal": 61,
+      "name": "Ctry_SY"
+    },
+    {
+      "org": "Ctry_BO",
+      "refu_rows": 6,
+      "cap_animals": 45.0,
+      "raw_animals": 45.0,
+      "share_ticket": 0.002413515687851971,
+      "share_animal": 0.00021159542953872197,
+      "rank_ticket": 39,
+      "rank_animal": 62,
+      "name": "Ctry_BO"
+    },
+    {
+      "org": "Ctry_IT",
+      "refu_rows": 9,
+      "cap_animals": 43.0,
+      "raw_animals": 43.0,
+      "share_ticket": 0.0036202735317779565,
+      "share_animal": 0.00020219118822588987,
+      "rank_ticket": 34,
+      "rank_animal": 63,
+      "name": "Ctry_IT"
+    },
+    {
+      "org": "Ctry_ES",
+      "refu_rows": 5,
+      "cap_animals": 41.0,
+      "raw_animals": 41.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 0.00019278694691305778,
+      "rank_ticket": 43,
+      "rank_animal": 64,
+      "name": "Ctry_ES"
+    },
+    {
+      "org": "Ctry_CH",
+      "refu_rows": 4,
+      "cap_animals": 41.0,
+      "raw_animals": 41.0,
+      "share_ticket": 0.0016090104585679806,
+      "share_animal": 0.00019278694691305778,
+      "rank_ticket": 48,
+      "rank_animal": 64,
+      "name": "Ctry_CH"
+    },
+    {
+      "org": "Ctry_HT",
+      "refu_rows": 1,
+      "cap_animals": 34.0,
+      "raw_animals": 34.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.0001598721023181455,
+      "rank_ticket": 73,
+      "rank_animal": 66,
+      "name": "Ctry_HT"
+    },
+    {
+      "org": "Ctry_FM",
+      "refu_rows": 2,
+      "cap_animals": 33.0,
+      "raw_animals": 33.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.00015516998166172945,
+      "rank_ticket": 57,
+      "rank_animal": 67,
+      "name": "Ctry_FM"
+    },
+    {
+      "org": "Ctry_DK",
+      "refu_rows": 2,
+      "cap_animals": 29.0,
+      "raw_animals": 29.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.00013636149903606526,
+      "rank_ticket": 57,
+      "rank_animal": 68,
+      "name": "Ctry_DK"
+    },
+    {
+      "org": "Ctry_MV",
+      "refu_rows": 2,
+      "cap_animals": 26.0,
+      "raw_animals": 26.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 0.00012225513706681714,
+      "rank_ticket": 57,
+      "rank_animal": 69,
+      "name": "Ctry_MV"
+    },
+    {
+      "org": "Ctry_CM",
+      "refu_rows": 6,
+      "cap_animals": 25.0,
+      "raw_animals": 25.0,
+      "share_ticket": 0.002413515687851971,
+      "share_animal": 0.00011755301641040109,
+      "rank_ticket": 39,
+      "rank_animal": 70,
+      "name": "Ctry_CM"
+    },
+    {
+      "org": "Ctry_AT",
+      "refu_rows": 1,
+      "cap_animals": 25.0,
+      "raw_animals": 25.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.00011755301641040109,
+      "rank_ticket": 73,
+      "rank_animal": 70,
+      "name": "Ctry_AT"
+    },
+    {
+      "org": "Ctry_ZA",
+      "refu_rows": 12,
+      "cap_animals": 24.0,
+      "raw_animals": 24.0,
+      "share_ticket": 0.004827031375703942,
+      "share_animal": 0.00011285089575398504,
+      "rank_ticket": 27,
+      "rank_animal": 72,
+      "name": "Ctry_ZA"
+    },
+    {
+      "org": "Ctry_TZ",
+      "refu_rows": 2,
+      "cap_animals": 21.0,
+      "raw_animals": 21.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 9.874453378473691e-05,
+      "rank_ticket": 57,
+      "rank_animal": 73,
+      "name": "Ctry_TZ"
+    },
+    {
+      "org": "Ctry_BN",
+      "refu_rows": 12,
+      "cap_animals": 13.0,
+      "raw_animals": 13.0,
+      "share_ticket": 0.004827031375703942,
+      "share_animal": 6.112756853340857e-05,
+      "rank_ticket": 27,
+      "rank_animal": 74,
+      "name": "Ctry_BN"
+    },
+    {
+      "org": "Ctry_EC",
+      "refu_rows": 1,
+      "cap_animals": 11.0,
+      "raw_animals": 11.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 5.172332722057648e-05,
+      "rank_ticket": 73,
+      "rank_animal": 75,
+      "name": "Ctry_EC"
+    },
+    {
+      "org": "Ctry_CZ",
+      "refu_rows": 3,
+      "cap_animals": 7.0,
+      "raw_animals": 7.0,
+      "share_ticket": 0.0012067578439259854,
+      "share_animal": 3.291484459491231e-05,
+      "rank_ticket": 53,
+      "rank_animal": 76,
+      "name": "Ctry_CZ"
+    },
+    {
+      "org": "Ctry_VE",
+      "refu_rows": 5,
+      "cap_animals": 5.0,
+      "raw_animals": 5.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 2.351060328208022e-05,
+      "rank_ticket": 43,
+      "rank_animal": 77,
+      "name": "Ctry_VE"
+    },
+    {
+      "org": "Ctry_MH",
+      "refu_rows": 2,
+      "cap_animals": 5.0,
+      "raw_animals": 5.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 2.351060328208022e-05,
+      "rank_ticket": 57,
+      "rank_animal": 77,
+      "name": "Ctry_MH"
+    },
+    {
+      "org": "Ctry_SR",
+      "refu_rows": 2,
+      "cap_animals": 5.0,
+      "raw_animals": 5.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 2.351060328208022e-05,
+      "rank_ticket": 57,
+      "rank_animal": 77,
+      "name": "Ctry_SR"
+    },
+    {
+      "org": "Ctry_FJ",
+      "refu_rows": 1,
+      "cap_animals": 5.0,
+      "raw_animals": 5.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 2.351060328208022e-05,
+      "rank_ticket": 73,
+      "rank_animal": 77,
+      "name": "Ctry_FJ"
+    },
+    {
+      "org": "Ctry_BJ",
+      "refu_rows": 1,
+      "cap_animals": 4.0,
+      "raw_animals": 4.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 1.8808482625664175e-05,
+      "rank_ticket": 73,
+      "rank_animal": 81,
+      "name": "Ctry_BJ"
+    },
+    {
+      "org": "Ctry_GT",
+      "refu_rows": 2,
+      "cap_animals": 3.0,
+      "raw_animals": 3.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 1.410636196924813e-05,
+      "rank_ticket": 57,
+      "rank_animal": 82,
+      "name": "Ctry_GT"
+    },
+    {
+      "org": "Ctry_CU",
+      "refu_rows": 2,
+      "cap_animals": 2.0,
+      "raw_animals": 2.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 9.404241312832088e-06,
+      "rank_ticket": 57,
+      "rank_animal": 83,
+      "name": "Ctry_CU"
+    },
+    {
+      "org": "Ctry_SE",
+      "refu_rows": 2,
+      "cap_animals": 2.0,
+      "raw_animals": 2.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 9.404241312832088e-06,
+      "rank_ticket": 57,
+      "rank_animal": 83,
+      "name": "Ctry_SE"
+    },
+    {
+      "org": "Ctry_G2",
+      "refu_rows": 1,
+      "cap_animals": 2.0,
+      "raw_animals": 2.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 9.404241312832088e-06,
+      "rank_ticket": 73,
+      "rank_animal": 83,
+      "name": "Ctry_G2"
+    },
+    {
+      "org": "Ctry_CR",
+      "refu_rows": 1,
+      "cap_animals": 1.0,
+      "raw_animals": 1.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 4.702120656416044e-06,
+      "rank_ticket": 73,
+      "rank_animal": 86,
+      "name": "Ctry_CR"
+    },
+    {
+      "org": "Ctry_YE",
+      "refu_rows": 1,
+      "cap_animals": 1.0,
+      "raw_animals": 1.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 4.702120656416044e-06,
+      "rank_ticket": 73,
+      "rank_animal": 86,
+      "name": "Ctry_YE"
+    }
+  ],
+  "ports": [
+    {
+      "port": "LA",
+      "refu_rows": 374,
+      "cap_animals": 57501.0,
+      "raw_animals": 1122501.0,
+      "share_ticket": 0.1504424778761062,
+      "share_animal": 0.27037663986457894,
+      "rank_ticket": 2,
+      "rank_animal": 1,
+      "name": "LA (LA)"
+    },
+    {
+      "port": "NY",
+      "refu_rows": 494,
+      "cap_animals": 30780.0,
+      "raw_animals": 30780.0,
+      "share_ticket": 0.19871279163314562,
+      "share_animal": 0.14473127380448583,
+      "rank_ticket": 1,
+      "rank_animal": 2,
+      "name": "NY (NY)"
+    },
+    {
+      "port": "MI",
+      "refu_rows": 262,
+      "cap_animals": 25756.0,
+      "raw_animals": 25756.0,
+      "share_ticket": 0.10539018503620273,
+      "share_animal": 0.12110781962665162,
+      "rank_ticket": 4,
+      "rank_animal": 3,
+      "name": "MI (MI)"
+    },
+    {
+      "port": "SF",
+      "refu_rows": 268,
+      "cap_animals": 17215.0,
+      "raw_animals": 17215.0,
+      "share_ticket": 0.10780370072405471,
+      "share_animal": 0.0809470071002022,
+      "rank_ticket": 3,
+      "rank_animal": 4,
+      "name": "SF (SF)"
+    },
+    {
+      "port": "ER",
+      "refu_rows": 180,
+      "cap_animals": 16510.0,
+      "raw_animals": 16510.0,
+      "share_ticket": 0.07240547063555913,
+      "share_animal": 0.07763201203742888,
+      "rank_ticket": 5,
+      "rank_animal": 5,
+      "name": "ER (ER)"
+    },
+    {
+      "port": "NG",
+      "refu_rows": 6,
+      "cap_animals": 16253.0,
+      "raw_animals": 36063.0,
+      "share_ticket": 0.002413515687851971,
+      "share_animal": 0.07642356702872996,
+      "rank_ticket": 25,
+      "rank_animal": 6,
+      "name": "NG (NG)"
+    },
+    {
+      "port": "CH",
+      "refu_rows": 101,
+      "cap_animals": 11973.0,
+      "raw_animals": 11973.0,
+      "share_ticket": 0.04062751407884151,
+      "share_animal": 0.05629849061926929,
+      "rank_ticket": 8,
+      "rank_animal": 7,
+      "name": "CH (CH)"
+    },
+    {
+      "port": "LO",
+      "refu_rows": 143,
+      "cap_animals": 10387.0,
+      "raw_animals": 10387.0,
+      "share_ticket": 0.05752212389380531,
+      "share_animal": 0.048840927258193445,
+      "rank_ticket": 6,
+      "rank_animal": 8,
+      "name": "LO (LO)"
+    },
+    {
+      "port": "DF",
+      "refu_rows": 78,
+      "cap_animals": 6597.0,
+      "raw_animals": 6597.0,
+      "share_ticket": 0.031375703942075624,
+      "share_animal": 0.03101988997037664,
+      "rank_ticket": 11,
+      "rank_animal": 9,
+      "name": "DF (DF)"
+    },
+    {
+      "port": "NW",
+      "refu_rows": 122,
+      "cap_animals": 4810.0,
+      "raw_animals": 4810.0,
+      "share_ticket": 0.04907481898632341,
+      "share_animal": 0.02261720035736117,
+      "rank_ticket": 7,
+      "rank_animal": 10,
+      "name": "NW (NW)"
+    },
+    {
+      "port": "BO",
+      "refu_rows": 52,
+      "cap_animals": 4723.0,
+      "raw_animals": 4723.0,
+      "share_ticket": 0.02091713596138375,
+      "share_animal": 0.022208115860252974,
+      "rank_ticket": 12,
+      "rank_animal": 11,
+      "name": "BO (BO)"
+    },
+    {
+      "port": "AT",
+      "refu_rows": 88,
+      "cap_animals": 3212.0,
+      "raw_animals": 3212.0,
+      "share_ticket": 0.035398230088495575,
+      "share_animal": 0.015103211548408333,
+      "rank_ticket": 10,
+      "rank_animal": 12,
+      "name": "AT (AT)"
+    },
+    {
+      "port": "ME",
+      "refu_rows": 90,
+      "cap_animals": 2142.0,
+      "raw_animals": 2142.0,
+      "share_ticket": 0.036202735317779566,
+      "share_animal": 0.010071942446043165,
+      "rank_ticket": 9,
+      "rank_animal": 13,
+      "name": "ME (ME)"
+    },
+    {
+      "port": "HA",
+      "refu_rows": 17,
+      "cap_animals": 1418.0,
+      "raw_animals": 1418.0,
+      "share_ticket": 0.006838294448913918,
+      "share_animal": 0.00666760709079795,
+      "rank_ticket": 17,
+      "rank_animal": 14,
+      "name": "HA (HA)"
+    },
+    {
+      "port": "SE",
+      "refu_rows": 19,
+      "cap_animals": 1075.0,
+      "raw_animals": 1075.0,
+      "share_ticket": 0.007642799678197908,
+      "share_animal": 0.005054779705647247,
+      "rank_ticket": 15,
+      "rank_animal": 15,
+      "name": "SE (SE)"
+    },
+    {
+      "port": "PA",
+      "refu_rows": 7,
+      "cap_animals": 321.0,
+      "raw_animals": 321.0,
+      "share_ticket": 0.0028157683024939663,
+      "share_animal": 0.00150938073070955,
+      "rank_ticket": 24,
+      "rank_animal": 16,
+      "name": "PA (PA)"
+    },
+    {
+      "port": "SY",
+      "refu_rows": 12,
+      "cap_animals": 317.0,
+      "raw_animals": 317.0,
+      "share_ticket": 0.004827031375703942,
+      "share_animal": 0.0014905722480838858,
+      "rank_ticket": 22,
+      "rank_animal": 17,
+      "name": "SY (SY)"
+    },
+    {
+      "port": "EL",
+      "refu_rows": 37,
+      "cap_animals": 300.0,
+      "raw_animals": 300.0,
+      "share_ticket": 0.014883346741753822,
+      "share_animal": 0.001410636196924813,
+      "rank_ticket": 13,
+      "rank_animal": 18,
+      "name": "EL (EL)"
+    },
+    {
+      "port": "CX",
+      "refu_rows": 4,
+      "cap_animals": 256.0,
+      "raw_animals": 256.0,
+      "share_ticket": 0.0016090104585679806,
+      "share_animal": 0.0012037428880425072,
+      "rank_ticket": 29,
+      "rank_animal": 19,
+      "name": "CX (CX)"
+    },
+    {
+      "port": "BN",
+      "refu_rows": 13,
+      "cap_animals": 197.0,
+      "raw_animals": 197.0,
+      "share_ticket": 0.005229283990345938,
+      "share_animal": 0.0009263177693139606,
+      "rank_ticket": 18,
+      "rank_animal": 20,
+      "name": "BN (BN)"
+    },
+    {
+      "port": "2",
+      "refu_rows": 5,
+      "cap_animals": 177.0,
+      "raw_animals": 177.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 0.0008322753561856397,
+      "rank_ticket": 26,
+      "rank_animal": 21,
+      "name": "2 (2)"
+    },
+    {
+      "port": "BL",
+      "refu_rows": 19,
+      "cap_animals": 160.0,
+      "raw_animals": 160.0,
+      "share_ticket": 0.007642799678197908,
+      "share_animal": 0.000752339305026567,
+      "rank_ticket": 15,
+      "rank_animal": 22,
+      "name": "BL (BL)"
+    },
+    {
+      "port": "HN",
+      "refu_rows": 9,
+      "cap_animals": 100.0,
+      "raw_animals": 100.0,
+      "share_ticket": 0.0036202735317779565,
+      "share_animal": 0.00047021206564160437,
+      "rank_ticket": 23,
+      "rank_animal": 23,
+      "name": "HN (HN)"
+    },
+    {
+      "port": "FL",
+      "refu_rows": 13,
+      "cap_animals": 95.0,
+      "raw_animals": 95.0,
+      "share_ticket": 0.005229283990345938,
+      "share_animal": 0.0004467014623595241,
+      "rank_ticket": 18,
+      "rank_animal": 24,
+      "name": "FL (FL)"
+    },
+    {
+      "port": "LR",
+      "refu_rows": 20,
+      "cap_animals": 90.0,
+      "raw_animals": 90.0,
+      "share_ticket": 0.008045052292839904,
+      "share_animal": 0.00042319085907744394,
+      "rank_ticket": 14,
+      "rank_animal": 25,
+      "name": "LR (LR)"
+    },
+    {
+      "port": "TP",
+      "refu_rows": 1,
+      "cap_animals": 87.0,
+      "raw_animals": 87.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 0.0004090844971081958,
+      "rank_ticket": 34,
+      "rank_animal": 26,
+      "name": "TP (TP)"
+    },
+    {
+      "port": "LK",
+      "refu_rows": 5,
+      "cap_animals": 69.0,
+      "raw_animals": 69.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 0.000324446325292707,
+      "rank_ticket": 26,
+      "rank_animal": 27,
+      "name": "LK (LK)"
+    },
+    {
+      "port": "CP",
+      "refu_rows": 13,
+      "cap_animals": 55.0,
+      "raw_animals": 55.0,
+      "share_ticket": 0.005229283990345938,
+      "share_animal": 0.0002586166361028824,
+      "rank_ticket": 18,
+      "rank_animal": 28,
+      "name": "CP (CP)"
+    },
+    {
+      "port": "AN",
+      "refu_rows": 13,
+      "cap_animals": 34.0,
+      "raw_animals": 34.0,
+      "share_ticket": 0.005229283990345938,
+      "share_animal": 0.0001598721023181455,
+      "rank_ticket": 18,
+      "rank_animal": 29,
+      "name": "AN (AN)"
+    },
+    {
+      "port": "PL",
+      "refu_rows": 5,
+      "cap_animals": 15.0,
+      "raw_animals": 15.0,
+      "share_ticket": 0.002011263073209976,
+      "share_animal": 7.053180984624065e-05,
+      "rank_ticket": 26,
+      "rank_animal": 30,
+      "name": "PL (PL)"
+    },
+    {
+      "port": "BV",
+      "refu_rows": 2,
+      "cap_animals": 12.0,
+      "raw_animals": 12.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 5.642544787699252e-05,
+      "rank_ticket": 31,
+      "rank_animal": 31,
+      "name": "BV (BV)"
+    },
+    {
+      "port": "OR",
+      "refu_rows": 2,
+      "cap_animals": 10.0,
+      "raw_animals": 10.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 4.702120656416044e-05,
+      "rank_ticket": 31,
+      "rank_animal": 32,
+      "name": "OR (OR)"
+    },
+    {
+      "port": "SW",
+      "refu_rows": 3,
+      "cap_animals": 8.0,
+      "raw_animals": 8.0,
+      "share_ticket": 0.0012067578439259854,
+      "share_animal": 3.761696525132835e-05,
+      "rank_ticket": 30,
+      "rank_animal": 33,
+      "name": "SW (SW)"
+    },
+    {
+      "port": "PX",
+      "refu_rows": 2,
+      "cap_animals": 5.0,
+      "raw_animals": 5.0,
+      "share_ticket": 0.0008045052292839903,
+      "share_animal": 2.351060328208022e-05,
+      "rank_ticket": 31,
+      "rank_animal": 34,
+      "name": "PX (PX)"
+    },
+    {
+      "port": "AG",
+      "refu_rows": 1,
+      "cap_animals": 3.0,
+      "raw_animals": 3.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 1.410636196924813e-05,
+      "rank_ticket": 34,
+      "rank_animal": 35,
+      "name": "AG (AG)"
+    },
+    {
+      "port": "BA",
+      "refu_rows": 1,
+      "cap_animals": 2.0,
+      "raw_animals": 2.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 9.404241312832088e-06,
+      "rank_ticket": 34,
+      "rank_animal": 36,
+      "name": "BA (BA)"
+    },
+    {
+      "port": "JX",
+      "refu_rows": 1,
+      "cap_animals": 1.0,
+      "raw_animals": 1.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 4.702120656416044e-06,
+      "rank_ticket": 34,
+      "rank_animal": 37,
+      "name": "JX (JX)"
+    },
+    {
+      "port": "HS",
+      "refu_rows": 1,
+      "cap_animals": 1.0,
+      "raw_animals": 1.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 4.702120656416044e-06,
+      "rank_ticket": 34,
+      "rank_animal": 37,
+      "name": "HS (HS)"
+    },
+    {
+      "port": "NO",
+      "refu_rows": 1,
+      "cap_animals": 1.0,
+      "raw_animals": 1.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 4.702120656416044e-06,
+      "rank_ticket": 34,
+      "rank_animal": 37,
+      "name": "NO (NO)"
+    },
+    {
+      "port": "MP",
+      "refu_rows": 1,
+      "cap_animals": 1.0,
+      "raw_animals": 1.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 4.702120656416044e-06,
+      "rank_ticket": 34,
+      "rank_animal": 37,
+      "name": "MP (MP)"
+    },
+    {
+      "port": "TN",
+      "refu_rows": 1,
+      "cap_animals": 1.0,
+      "raw_animals": 1.0,
+      "share_ticket": 0.00040225261464199515,
+      "share_animal": 4.702120656416044e-06,
+      "rank_ticket": 34,
+      "rank_animal": 37,
+      "name": "TN (TN)"
+    }
+  ],
+  "flows_top": [
+    {
+      "org": "Ctry_MX",
+      "port": "NG",
+      "band": 4,
+      "cap_animals": 15962.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MX",
+      "port_name": "NG",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 11260.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PE",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_BE",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 10000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BE",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 9000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TR",
+      "port": "MI",
+      "band": 4,
+      "cap_animals": 8000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TR",
+      "port_name": "MI",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 6900.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CN",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 5623.0,
+      "refu_rows": 13,
+      "org_name": "Ctry_TW",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 5032.0,
+      "refu_rows": 29,
+      "org_name": "Ctry_CN",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "BO",
+      "band": 4,
+      "cap_animals": 3800.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "BO",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 3532.0,
+      "refu_rows": 45,
+      "org_name": "Ctry_CN",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "SF",
+      "band": 4,
+      "cap_animals": 3460.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "SF",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LO",
+      "band": 3,
+      "cap_animals": 3238.0,
+      "refu_rows": 21,
+      "org_name": "Ctry_CN",
+      "port_name": "LO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "SF",
+      "band": 4,
+      "cap_animals": 3126.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MG",
+      "port_name": "SF",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "CH",
+      "band": 4,
+      "cap_animals": 3100.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_UA",
+      "port_name": "CH",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CG",
+      "port": "ER",
+      "band": 4,
+      "cap_animals": 3000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CG",
+      "port_name": "ER",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "CH",
+      "band": 3,
+      "cap_animals": 2959.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_TW",
+      "port_name": "CH",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CF",
+      "port": "NY",
+      "band": 4,
+      "cap_animals": 2930.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CF",
+      "port_name": "NY",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "ER",
+      "band": 2,
+      "cap_animals": 2860.0,
+      "refu_rows": 52,
+      "org_name": "Unknown origin",
+      "port_name": "ER",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "SF",
+      "band": 3,
+      "cap_animals": 2847.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_MG",
+      "port_name": "SF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "CH",
+      "band": 4,
+      "cap_animals": 2800.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "CH",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 2703.0,
+      "refu_rows": 7,
+      "org_name": "Unknown origin",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 2701.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_TH",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "ER",
+      "band": 4,
+      "cap_animals": 2700.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "ER",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "ER",
+      "band": 3,
+      "cap_animals": 2518.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_ID",
+      "port_name": "ER",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "DF",
+      "band": 4,
+      "cap_animals": 2420.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "DF",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_EG",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 2382.0,
+      "refu_rows": 37,
+      "org_name": "Ctry_EG",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_EG",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 2227.0,
+      "refu_rows": 12,
+      "org_name": "Ctry_EG",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "NY",
+      "band": 4,
+      "cap_animals": 2109.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "NY",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TG",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 2085.0,
+      "refu_rows": 27,
+      "org_name": "Ctry_TG",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TG",
+      "port": "NW",
+      "band": 3,
+      "cap_animals": 2000.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_TG",
+      "port_name": "NW",
+      "band_label": "101–1000"
+    }
+  ],
+  "flows_all": [
+    {
+      "org": "Ctry_MX",
+      "port": "NG",
+      "band": 4,
+      "cap_animals": 15962.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MX",
+      "port_name": "NG",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 11260.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PE",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_BE",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 10000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BE",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 9000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TR",
+      "port": "MI",
+      "band": 4,
+      "cap_animals": 8000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TR",
+      "port_name": "MI",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 6900.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CN",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 5623.0,
+      "refu_rows": 13,
+      "org_name": "Ctry_TW",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 5032.0,
+      "refu_rows": 29,
+      "org_name": "Ctry_CN",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "BO",
+      "band": 4,
+      "cap_animals": 3800.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "BO",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 3532.0,
+      "refu_rows": 45,
+      "org_name": "Ctry_CN",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "SF",
+      "band": 4,
+      "cap_animals": 3460.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "SF",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LO",
+      "band": 3,
+      "cap_animals": 3238.0,
+      "refu_rows": 21,
+      "org_name": "Ctry_CN",
+      "port_name": "LO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "SF",
+      "band": 4,
+      "cap_animals": 3126.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MG",
+      "port_name": "SF",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "CH",
+      "band": 4,
+      "cap_animals": 3100.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_UA",
+      "port_name": "CH",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CG",
+      "port": "ER",
+      "band": 4,
+      "cap_animals": 3000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CG",
+      "port_name": "ER",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "CH",
+      "band": 3,
+      "cap_animals": 2959.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_TW",
+      "port_name": "CH",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CF",
+      "port": "NY",
+      "band": 4,
+      "cap_animals": 2930.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CF",
+      "port_name": "NY",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "ER",
+      "band": 2,
+      "cap_animals": 2860.0,
+      "refu_rows": 52,
+      "org_name": "Unknown origin",
+      "port_name": "ER",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "SF",
+      "band": 3,
+      "cap_animals": 2847.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_MG",
+      "port_name": "SF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "CH",
+      "band": 4,
+      "cap_animals": 2800.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "CH",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 2703.0,
+      "refu_rows": 7,
+      "org_name": "Unknown origin",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 2701.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_TH",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "ER",
+      "band": 4,
+      "cap_animals": 2700.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "ER",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "ER",
+      "band": 3,
+      "cap_animals": 2518.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_ID",
+      "port_name": "ER",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "DF",
+      "band": 4,
+      "cap_animals": 2420.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "DF",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_EG",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 2382.0,
+      "refu_rows": 37,
+      "org_name": "Ctry_EG",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_EG",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 2227.0,
+      "refu_rows": 12,
+      "org_name": "Ctry_EG",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "NY",
+      "band": 4,
+      "cap_animals": 2109.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "NY",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TG",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 2085.0,
+      "refu_rows": 27,
+      "org_name": "Ctry_TG",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TG",
+      "port": "NW",
+      "band": 3,
+      "cap_animals": 2000.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_TG",
+      "port_name": "NW",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TR",
+      "port": "LA",
+      "band": 4,
+      "cap_animals": 2000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TR",
+      "port_name": "LA",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 1926.0,
+      "refu_rows": 30,
+      "org_name": "Ctry_CN",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "ER",
+      "band": 3,
+      "cap_animals": 1717.0,
+      "refu_rows": 11,
+      "org_name": "Unknown origin",
+      "port_name": "ER",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 1675.0,
+      "refu_rows": 46,
+      "org_name": "Ctry_ID",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "ER",
+      "band": 4,
+      "cap_animals": 1620.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "ER",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 1565.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_DE",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "AT",
+      "band": 3,
+      "cap_animals": 1533.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_DE",
+      "port_name": "AT",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "MI",
+      "band": 4,
+      "cap_animals": 1500.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "MI",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 1464.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_PE",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "AT",
+      "band": 2,
+      "cap_animals": 1386.0,
+      "refu_rows": 49,
+      "org_name": "Ctry_DE",
+      "port_name": "AT",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_IN",
+      "port": "LO",
+      "band": 3,
+      "cap_animals": 1300.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_IN",
+      "port_name": "LO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "LO",
+      "band": 3,
+      "cap_animals": 1257.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_MX",
+      "port_name": "LO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "SF",
+      "band": 3,
+      "cap_animals": 1252.0,
+      "refu_rows": 4,
+      "org_name": "Unknown origin",
+      "port_name": "SF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 1248.0,
+      "refu_rows": 38,
+      "org_name": "Ctry_ID",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 1209.0,
+      "refu_rows": 5,
+      "org_name": "Unknown origin",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_BE",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 1208.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_BE",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "SF",
+      "band": 4,
+      "cap_animals": 1183.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "SF",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "MI",
+      "band": 4,
+      "cap_animals": 1176.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "MI",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_KR",
+      "port": "DF",
+      "band": 3,
+      "cap_animals": 1111.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_KR",
+      "port_name": "DF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "MI",
+      "band": 4,
+      "cap_animals": 1100.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "MI",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_JP",
+      "port": "NY",
+      "band": 4,
+      "cap_animals": 1080.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JP",
+      "port_name": "NY",
+      "band_label": ">1000"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "ER",
+      "band": 3,
+      "cap_animals": 1000.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "ER",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 981.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_AU",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 938.0,
+      "refu_rows": 18,
+      "org_name": "Ctry_ID",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "ME",
+      "band": 3,
+      "cap_animals": 874.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_ID",
+      "port_name": "ME",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 845.0,
+      "refu_rows": 28,
+      "org_name": "Ctry_ID",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 834.0,
+      "refu_rows": 20,
+      "org_name": "Ctry_PE",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "ME",
+      "band": 3,
+      "cap_animals": 803.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MX",
+      "port_name": "ME",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 789.0,
+      "refu_rows": 14,
+      "org_name": "Ctry_DE",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CD",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 773.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_CD",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 766.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_CN",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 740.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_ID",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_JP",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 733.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JP",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "DF",
+      "band": 3,
+      "cap_animals": 718.0,
+      "refu_rows": 3,
+      "org_name": "Unknown origin",
+      "port_name": "DF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 700.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MY",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 699.0,
+      "refu_rows": 17,
+      "org_name": "Ctry_TH",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "SF",
+      "band": 3,
+      "cap_animals": 650.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PH",
+      "port_name": "SF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 626.0,
+      "refu_rows": 16,
+      "org_name": "Unknown origin",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 600.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_VN",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 597.0,
+      "refu_rows": 12,
+      "org_name": "Ctry_TW",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "HA",
+      "band": 3,
+      "cap_animals": 558.0,
+      "refu_rows": 3,
+      "org_name": "Unknown origin",
+      "port_name": "HA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "ER",
+      "band": 2,
+      "cap_animals": 551.0,
+      "refu_rows": 17,
+      "org_name": "Ctry_ID",
+      "port_name": "ER",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 532.0,
+      "refu_rows": 11,
+      "org_name": "Unknown origin",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_JM",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 530.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JM",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 530.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_AU",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 504.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "SF",
+      "band": 3,
+      "cap_animals": 500.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_VN",
+      "port_name": "SF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 500.0,
+      "refu_rows": 8,
+      "org_name": "Unknown origin",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 500.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MY",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_NI",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 500.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NI",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 499.0,
+      "refu_rows": 14,
+      "org_name": "Ctry_PE",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 485.0,
+      "refu_rows": 15,
+      "org_name": "Ctry_AU",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 478.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_PE",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "DF",
+      "band": 3,
+      "cap_animals": 457.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_AU",
+      "port_name": "DF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 439.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_TH",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 420.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_MG",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 414.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_TW",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 413.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_TH",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "CH",
+      "band": 3,
+      "cap_animals": 407.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "CH",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "HA",
+      "band": 3,
+      "cap_animals": 400.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "HA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 400.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_ID",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_EG",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 400.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_EG",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_PA",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 377.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PA",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 363.0,
+      "refu_rows": 50,
+      "org_name": "Ctry_ID",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 350.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_VN",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 342.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_CN",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 338.0,
+      "refu_rows": 55,
+      "org_name": "Ctry_ID",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 317.0,
+      "refu_rows": 69,
+      "org_name": "Ctry_ID",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 317.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_MY",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 314.0,
+      "refu_rows": 6,
+      "org_name": "Unknown origin",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_KE",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 311.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_KE",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_LK",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 311.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_LK",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 309.0,
+      "refu_rows": 2,
+      "org_name": "Unknown origin",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 307.0,
+      "refu_rows": 6,
+      "org_name": "Unknown origin",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "CH",
+      "band": 3,
+      "cap_animals": 300.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PE",
+      "port_name": "CH",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 300.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 300.0,
+      "refu_rows": 13,
+      "org_name": "Ctry_ID",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_BG",
+      "port": "PA",
+      "band": 2,
+      "cap_animals": 300.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_BG",
+      "port_name": "PA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "NG",
+      "band": 3,
+      "cap_animals": 288.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "NG",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 284.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GB",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ML",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 280.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ML",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "HA",
+      "band": 2,
+      "cap_animals": 280.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_ID",
+      "port_name": "HA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 266.0,
+      "refu_rows": 4,
+      "org_name": "Unknown origin",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "SF",
+      "band": 3,
+      "cap_animals": 263.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_ID",
+      "port_name": "SF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_BY",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 257.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BY",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "CX",
+      "band": 2,
+      "cap_animals": 256.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_MX",
+      "port_name": "CX",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 250.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_TH",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "DF",
+      "band": 3,
+      "cap_animals": 250.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "DF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "BO",
+      "band": 2,
+      "cap_animals": 241.0,
+      "refu_rows": 8,
+      "org_name": "Ctry_DE",
+      "port_name": "BO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "DF",
+      "band": 3,
+      "cap_animals": 240.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_VN",
+      "port_name": "DF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 233.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_BR",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 225.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_MX",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_HK",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 220.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_HK",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 213.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_AU",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 202.0,
+      "refu_rows": 4,
+      "org_name": "Unknown origin",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_FR",
+      "port": "LO",
+      "band": 3,
+      "cap_animals": 201.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_FR",
+      "port_name": "LO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_HU",
+      "port": "SE",
+      "band": 3,
+      "cap_animals": 200.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_HU",
+      "port_name": "SE",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 200.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TW",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "DF",
+      "band": 3,
+      "cap_animals": 199.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "DF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 194.0,
+      "refu_rows": 10,
+      "org_name": "Ctry_BR",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CF",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 192.0,
+      "refu_rows": 8,
+      "org_name": "Ctry_CF",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 186.0,
+      "refu_rows": 36,
+      "org_name": "Ctry_ID",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "HA",
+      "band": 2,
+      "cap_animals": 180.0,
+      "refu_rows": 4,
+      "org_name": "Unknown origin",
+      "port_name": "HA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NI",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 178.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_NI",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SB",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 175.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SB",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 172.0,
+      "refu_rows": 39,
+      "org_name": "Unknown origin",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 169.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CA",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TO",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 169.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_TO",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_HK",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 163.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_HK",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 160.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_VN",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SK",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 160.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SK",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "SY",
+      "band": 2,
+      "cap_animals": 155.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_MX",
+      "port_name": "SY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SA",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 155.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_SA",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 153.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_VN",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SG",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 150.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SG",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 150.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BR",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_HK",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 150.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_HK",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "MI",
+      "band": 3,
+      "cap_animals": 149.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "MI",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 148.0,
+      "refu_rows": 72,
+      "org_name": "Unknown origin",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "DF",
+      "band": 1,
+      "cap_animals": 147.0,
+      "refu_rows": 21,
+      "org_name": "Ctry_ID",
+      "port_name": "DF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_KR",
+      "port": "LA",
+      "band": 3,
+      "cap_animals": 144.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KR",
+      "port_name": "LA",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_DO",
+      "port": "BO",
+      "band": 2,
+      "cap_animals": 144.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_DO",
+      "port_name": "BO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "CH",
+      "band": 3,
+      "cap_animals": 140.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NG",
+      "port_name": "CH",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "EL",
+      "band": 2,
+      "cap_animals": 134.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_MX",
+      "port_name": "EL",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "BL",
+      "band": 2,
+      "cap_animals": 133.0,
+      "refu_rows": 3,
+      "org_name": "Unknown origin",
+      "port_name": "BL",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 133.0,
+      "refu_rows": 18,
+      "org_name": "Ctry_PE",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 132.0,
+      "refu_rows": 52,
+      "org_name": "Ctry_AU",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "SY",
+      "band": 3,
+      "cap_animals": 132.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CA",
+      "port_name": "SY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 131.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_CN",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "ME",
+      "band": 2,
+      "cap_animals": 131.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_ID",
+      "port_name": "ME",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 130.0,
+      "refu_rows": 18,
+      "org_name": "Ctry_DE",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TO",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 130.0,
+      "refu_rows": 52,
+      "org_name": "Ctry_TO",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 130.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_TW",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 130.0,
+      "refu_rows": 21,
+      "org_name": "Ctry_ID",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DO",
+      "port": "BO",
+      "band": 3,
+      "cap_animals": 129.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DO",
+      "port_name": "BO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 128.0,
+      "refu_rows": 26,
+      "org_name": "Ctry_CN",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "BO",
+      "band": 3,
+      "cap_animals": 126.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DE",
+      "port_name": "BO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_DO",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 126.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_DO",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PL",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 125.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PL",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 124.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_CN",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 124.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_PE",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 116.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_TW",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 116.0,
+      "refu_rows": 55,
+      "org_name": "Ctry_TH",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_EG",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 116.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_EG",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "BN",
+      "band": 3,
+      "cap_animals": 114.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CA",
+      "port_name": "BN",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_TG",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 114.0,
+      "refu_rows": 13,
+      "org_name": "Ctry_TG",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 114.0,
+      "refu_rows": 23,
+      "org_name": "Ctry_PE",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PF",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 111.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PF",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "SF",
+      "band": 3,
+      "cap_animals": 110.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "SF",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "LO",
+      "band": 3,
+      "cap_animals": 108.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "LO",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "CH",
+      "band": 3,
+      "cap_animals": 105.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "CH",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "ME",
+      "band": 3,
+      "cap_animals": 102.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "ME",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "2",
+      "band": 3,
+      "cap_animals": 101.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "2",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_RU",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 101.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_RU",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "NY",
+      "band": 3,
+      "cap_animals": 101.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PH",
+      "port_name": "NY",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "SE",
+      "band": 3,
+      "cap_animals": 101.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "SE",
+      "band_label": "101–1000"
+    },
+    {
+      "org": "Ctry_BB",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 100.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BB",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 100.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 100.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 100.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PH",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 100.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GB",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 98.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_PE",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 96.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_AU",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CO",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 96.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CO",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 96.0,
+      "refu_rows": 28,
+      "org_name": "Ctry_CN",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 93.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_DE",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_BZ",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 93.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_BZ",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "BO",
+      "band": 2,
+      "cap_animals": 90.0,
+      "refu_rows": 5,
+      "org_name": "Unknown origin",
+      "port_name": "BO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 87.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NI",
+      "port": "TP",
+      "band": 2,
+      "cap_animals": 87.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NI",
+      "port_name": "TP",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 86.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MY",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_BE",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 85.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BE",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PA",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 80.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PA",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "ER",
+      "band": 2,
+      "cap_animals": 80.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "ER",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 79.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_DE",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SB",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 79.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_SB",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "EL",
+      "band": 2,
+      "cap_animals": 76.0,
+      "refu_rows": 4,
+      "org_name": "Unknown origin",
+      "port_name": "EL",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SV",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 75.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SV",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_GY",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 74.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_GY",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SB",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 74.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_SB",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 74.0,
+      "refu_rows": 35,
+      "org_name": "Unknown origin",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_RU",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 73.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_RU",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "EL",
+      "band": 1,
+      "cap_animals": 72.0,
+      "refu_rows": 17,
+      "org_name": "Ctry_MX",
+      "port_name": "EL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 70.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PE",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_KH",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 70.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_KH",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 66.0,
+      "refu_rows": 27,
+      "org_name": "Unknown origin",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "2",
+      "band": 2,
+      "cap_animals": 65.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "2",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "HN",
+      "band": 2,
+      "cap_animals": 65.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_VN",
+      "port_name": "HN",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "BO",
+      "band": 1,
+      "cap_animals": 63.0,
+      "refu_rows": 19,
+      "org_name": "Unknown origin",
+      "port_name": "BO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 63.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_GB",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "LR",
+      "band": 1,
+      "cap_animals": 61.0,
+      "refu_rows": 16,
+      "org_name": "Ctry_MX",
+      "port_name": "LR",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "ER",
+      "band": 2,
+      "cap_animals": 60.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_PE",
+      "port_name": "ER",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_IS",
+      "port": "BO",
+      "band": 2,
+      "cap_animals": 60.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_IS",
+      "port_name": "BO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 60.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_PE",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "LK",
+      "band": 2,
+      "cap_animals": 60.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "LK",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CO",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 60.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CO",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_LK",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 60.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_LK",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 59.0,
+      "refu_rows": 18,
+      "org_name": "Ctry_UA",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 59.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_ID",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 56.0,
+      "refu_rows": 11,
+      "org_name": "Ctry_BR",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SG",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 55.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SG",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_GR",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 50.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_GR",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ZW",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 50.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ZW",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 50.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_CN",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "AT",
+      "band": 2,
+      "cap_animals": 50.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_VN",
+      "port_name": "AT",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 50.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PH",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "BO",
+      "band": 1,
+      "cap_animals": 50.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_DE",
+      "port_name": "BO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 49.0,
+      "refu_rows": 17,
+      "org_name": "Ctry_TW",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DO",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 49.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DO",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_SY",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 49.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SY",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "ME",
+      "band": 2,
+      "cap_animals": 49.0,
+      "refu_rows": 3,
+      "org_name": "Unknown origin",
+      "port_name": "ME",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 48.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_PE",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BS",
+      "port": "FL",
+      "band": 1,
+      "cap_animals": 45.0,
+      "refu_rows": 8,
+      "org_name": "Ctry_BS",
+      "port_name": "FL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 44.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_BR",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "AT",
+      "band": 2,
+      "cap_animals": 42.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MY",
+      "port_name": "AT",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_BS",
+      "port": "FL",
+      "band": 2,
+      "cap_animals": 37.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_BS",
+      "port_name": "FL",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CO",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 36.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_CO",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SB",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 35.0,
+      "refu_rows": 10,
+      "org_name": "Ctry_SB",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 35.0,
+      "refu_rows": 12,
+      "org_name": "Ctry_MX",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_HT",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 34.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_HT",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_HK",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 34.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_HK",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CH",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 33.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CH",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 32.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_MY",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 32.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_US",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 31.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_DE",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 31.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "SY",
+      "band": 1,
+      "cap_animals": 30.0,
+      "refu_rows": 8,
+      "org_name": "Ctry_MX",
+      "port_name": "SY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_HU",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 30.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_HU",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_FM",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 30.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_FM",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NL",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 30.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_NL",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 30.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_UA",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 30.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_JP",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 30.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JP",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "CP",
+      "band": 1,
+      "cap_animals": 28.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_CA",
+      "port_name": "CP",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 27.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_US",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 26.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_US",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 26.0,
+      "refu_rows": 10,
+      "org_name": "Ctry_PE",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 25.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_AT",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 25.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_AT",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 25.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NG",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "BN",
+      "band": 2,
+      "cap_animals": 25.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "BN",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_DK",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 25.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DK",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "HN",
+      "band": 2,
+      "cap_animals": 24.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_NG",
+      "port_name": "HN",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "BN",
+      "band": 2,
+      "cap_animals": 24.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CA",
+      "port_name": "BN",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 23.0,
+      "refu_rows": 7,
+      "org_name": "Ctry_ID",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_KR",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 23.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KR",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 23.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_PH",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 23.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_US",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_IT",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 22.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_IT",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_KE",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 22.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_KE",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "LR",
+      "band": 2,
+      "cap_animals": 21.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "LR",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 21.0,
+      "refu_rows": 5,
+      "org_name": "Unknown origin",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BO",
+      "port": "ER",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BO",
+      "port_name": "ER",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 20.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_VN",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MY",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 20.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_BR",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GY",
+      "port": "SE",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GY",
+      "port_name": "SE",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TZ",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TZ",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_KR",
+      "port": "AT",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KR",
+      "port_name": "AT",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_KR",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KR",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MV",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MV",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ES",
+      "port": "PA",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ES",
+      "port_name": "PA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 20.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_TH",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 20.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_TH",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CD",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 20.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CD",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ES",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 20.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_ES",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DO",
+      "port": "BO",
+      "band": 1,
+      "cap_animals": 19.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_DO",
+      "port_name": "BO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 19.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_US",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BE",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 19.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BE",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_TW",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 18.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_TW",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "EL",
+      "band": 1,
+      "cap_animals": 18.0,
+      "refu_rows": 9,
+      "org_name": "Unknown origin",
+      "port_name": "EL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BO",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 18.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_BO",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_HK",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 18.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_HK",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "BN",
+      "band": 1,
+      "cap_animals": 17.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_CA",
+      "port_name": "BN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ZA",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 17.0,
+      "refu_rows": 9,
+      "org_name": "Ctry_ZA",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "DF",
+      "band": 1,
+      "cap_animals": 16.0,
+      "refu_rows": 3,
+      "org_name": "Unknown origin",
+      "port_name": "DF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 16.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_UA",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CO",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 16.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CO",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_KH",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 16.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_KH",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CM",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 16.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CM",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 16.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PH",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 16.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_PH",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 16.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MY",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NL",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 16.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NL",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 16.0,
+      "refu_rows": 6,
+      "org_name": "Unknown origin",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "PL",
+      "band": 1,
+      "cap_animals": 15.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_CA",
+      "port_name": "PL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "SF",
+      "band": 2,
+      "cap_animals": 15.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "SF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_DO",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 15.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_DO",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 15.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_UA",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_KE",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 15.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_KE",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_KE",
+      "port": "LA",
+      "band": 2,
+      "cap_animals": 15.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KE",
+      "port_name": "LA",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 15.0,
+      "refu_rows": 10,
+      "org_name": "Ctry_MX",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "DF",
+      "band": 1,
+      "cap_animals": 14.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_AU",
+      "port_name": "DF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CO",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 14.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CO",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 14.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NG",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 14.0,
+      "refu_rows": 11,
+      "org_name": "Ctry_ID",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "BL",
+      "band": 1,
+      "cap_animals": 14.0,
+      "refu_rows": 10,
+      "org_name": "Unknown origin",
+      "port_name": "BL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "BN",
+      "band": 1,
+      "cap_animals": 14.0,
+      "refu_rows": 3,
+      "org_name": "Unknown origin",
+      "port_name": "BN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BN",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 13.0,
+      "refu_rows": 12,
+      "org_name": "Ctry_BN",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 13.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_PE",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 13.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MY",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_FR",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 13.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_FR",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "CP",
+      "band": 2,
+      "cap_animals": 12.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CA",
+      "port_name": "CP",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "ME",
+      "band": 2,
+      "cap_animals": 12.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "ME",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 12.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_GB",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "AN",
+      "band": 1,
+      "cap_animals": 12.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_MY",
+      "port_name": "AN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "CH",
+      "band": 2,
+      "cap_animals": 12.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_VN",
+      "port_name": "CH",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_CF",
+      "port": "ER",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CF",
+      "port_name": "ER",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_EC",
+      "port": "FL",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_EC",
+      "port_name": "FL",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "BV",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "BV",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_KH",
+      "port": "DF",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KH",
+      "port_name": "DF",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "NW",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "NW",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "LO",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "LO",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_IT",
+      "port": "NY",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_IT",
+      "port_name": "NY",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_PL",
+      "port": "MI",
+      "band": 2,
+      "cap_animals": 11.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PL",
+      "port_name": "MI",
+      "band_label": "11–100"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_VN",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DE",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CO",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CO",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PH",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SA",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SA",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CA",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_HK",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_HK",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CF",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 10.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CF",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_NG",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "DF",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_PE",
+      "port_name": "DF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BE",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BE",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_IT",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_IT",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_JP",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JP",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CN",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "LK",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_MX",
+      "port_name": "LK",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "2",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "2",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 9.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_DE",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "AN",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_VN",
+      "port_name": "AN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CH",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CH",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 4,
+      "org_name": "Unknown origin",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_ID",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 6,
+      "org_name": "Ctry_ID",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "OR",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PH",
+      "port_name": "OR",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "DF",
+      "band": 1,
+      "cap_animals": 8.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "DF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "LR",
+      "band": 1,
+      "cap_animals": 7.0,
+      "refu_rows": 2,
+      "org_name": "Unknown origin",
+      "port_name": "LR",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SV",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 7.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SV",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 7.0,
+      "refu_rows": 4,
+      "org_name": "Ctry_GB",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "AN",
+      "band": 1,
+      "cap_animals": 7.0,
+      "refu_rows": 2,
+      "org_name": "Unknown origin",
+      "port_name": "AN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 7.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "SW",
+      "band": 1,
+      "cap_animals": 7.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CA",
+      "port_name": "SW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NL",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 6.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_NL",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CF",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 6.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CF",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "HN",
+      "band": 1,
+      "cap_animals": 6.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_VN",
+      "port_name": "HN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MV",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 6.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MV",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 6.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_UA",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BO",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 6.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BO",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "BL",
+      "band": 1,
+      "cap_animals": 6.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CN",
+      "port_name": "BL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TO",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_TO",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_VE",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 5,
+      "org_name": "Ctry_VE",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "CP",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 3,
+      "org_name": "Unknown origin",
+      "port_name": "CP",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "BL",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CA",
+      "port_name": "BL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SR",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_SR",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_KE",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KE",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_FJ",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_FJ",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "PX",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MX",
+      "port_name": "PX",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ZA",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ZA",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ZW",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ZW",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_AU",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_AU",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_KR",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_KR",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MH",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 5.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MH",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_EG",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_EG",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_IN",
+      "port": "CP",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_IN",
+      "port_name": "CP",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DK",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DK",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MY",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MY",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NL",
+      "port": "CP",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NL",
+      "port_name": "CP",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CM",
+      "port": "HN",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CM",
+      "port_name": "HN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BJ",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BJ",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CZ",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CZ",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_JP",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JP",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_RU",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 4.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_RU",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "AN",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "AN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "NG",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_MX",
+      "port_name": "NG",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_LK",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_LK",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_FM",
+      "port": "AG",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_FM",
+      "port_name": "AG",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_JP",
+      "port": "DF",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JP",
+      "port_name": "DF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DE",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NL",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 3,
+      "org_name": "Ctry_NL",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BR",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CM",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CM",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "BN",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "BN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CD",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 3.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CD",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CU",
+      "port": "FL",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CU",
+      "port_name": "FL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_MX",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NI",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_NI",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CZ",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CZ",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "CP",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BR",
+      "port_name": "CP",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DO",
+      "port": "OR",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DO",
+      "port_name": "OR",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PH",
+      "port": "AN",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PH",
+      "port_name": "AN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_JP",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_JP",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GB",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "BA",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NG",
+      "port_name": "BA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_PE",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_G2",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_G2",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GY",
+      "port": "ER",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GY",
+      "port_name": "ER",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GT",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GT",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_CN",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_IN",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_IN",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CG",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CG",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CM",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CM",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CF",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CF",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CG",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CG",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_HU",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_HU",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CA",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CA",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SE",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 2.0,
+      "refu_rows": 2,
+      "org_name": "Ctry_SE",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "TN",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "TN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "MP",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "MP",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NL",
+      "port": "ME",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NL",
+      "port_name": "ME",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NG",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ZA",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ZA",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_YE",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_YE",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BR",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BR",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CR",
+      "port": "DF",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CR",
+      "port_name": "DF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CG",
+      "port": "BL",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CG",
+      "port_name": "BL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CZ",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CZ",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_NG",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_NG",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_KR",
+      "port": "AN",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_KR",
+      "port_name": "AN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ES",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ES",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_IT",
+      "port": "2",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_IT",
+      "port_name": "2",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_RU",
+      "port": "BO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_RU",
+      "port_name": "BO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TG",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TG",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SV",
+      "port": "SF",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SV",
+      "port_name": "SF",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TH",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TH",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_SB",
+      "port": "BL",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_SB",
+      "port_name": "BL",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GB",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_PE",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_PE",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GB",
+      "port": "AT",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GB",
+      "port_name": "AT",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MX",
+      "port": "BV",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MX",
+      "port_name": "BV",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_MG",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_MG",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "HS",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_US",
+      "port_name": "HS",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "HN",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_US",
+      "port_name": "HN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "LR",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_US",
+      "port_name": "LR",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_US",
+      "port_name": "LO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_CN",
+      "port": "AN",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_CN",
+      "port_name": "AN",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_GT",
+      "port": "LA",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_GT",
+      "port_name": "LA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_UA",
+      "port": "MI",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_UA",
+      "port_name": "MI",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_TZ",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_TZ",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_VN",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_VN",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_US",
+      "port": "SW",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_US",
+      "port_name": "SW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "JX",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "JX",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ID",
+      "port": "CH",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ID",
+      "port_name": "CH",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_ZA",
+      "port": "NY",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_ZA",
+      "port_name": "NY",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "2",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "2",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "NW",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "NW",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_XX",
+      "port": "NO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Unknown origin",
+      "port_name": "NO",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_DE",
+      "port": "PA",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_DE",
+      "port_name": "PA",
+      "band_label": "1–10"
+    },
+    {
+      "org": "Ctry_BO",
+      "port": "LO",
+      "band": 1,
+      "cap_animals": 1.0,
+      "refu_rows": 1,
+      "org_name": "Ctry_BO",
+      "port_name": "LO",
+      "band_label": "1–10"
+    }
+  ],
+  "concentration": {
+    "countries": {
+      "n_units_50": 5,
+      "n_units_80": 11,
+      "n_units_90": 17,
+      "n_units": 87,
+      "top1_share_animal": 0.13714205106503033,
+      "top5_share_animal": 0.5380918794376264,
+      "top10_share_animal": 0.7747731226783279
+    },
+    "ports": {
+      "n_units_50": 3,
+      "n_units_80": 7,
+      "n_units_90": 9,
+      "n_units": 41,
+      "top1_share_animal": 0.27037663986457894,
+      "top5_share_animal": 0.6947947524333474,
+      "top10_share_animal": 0.9299948276672779
+    },
+    "flows": {
+      "n_units_50": 19,
+      "n_units_80": 60,
+      "n_units_90": 103,
+      "n_units": 492,
+      "top1_share_animal": 0.07505524991771288,
+      "top5_share_animal": 0.2549583862321907,
+      "top10_share_animal": 0.3719800630084168
+    }
+  },
+  "flow_fragility": {
+    "share_animals_flows_1row": 0.34931113932383506,
+    "share_animals_flows_2row": 0.5894954624535665,
+    "share_animals_flows_5row": 0.6749518032632718,
+    "median_rows_per_flow": 2.0
+  },
+  "two_worlds": {
+    "country_spearman": 0.6992183788073792,
+    "country_top10_overlap": 0.7,
+    "port_spearman": 0.8962707529351158,
+    "port_top10_overlap": 0.8,
+    "band_share_ticket": {
+      ">1000": 0.012067578439259855,
+      "101–1000": 0.10619469026548672,
+      "11–100": 0.3592115848753017,
+      "1–10": 0.5225261464199518
+    },
+    "band_share_animal": {
+      ">1000": 0.4839751728029341,
+      "101–1000": 0.30823341326938447,
+      "11–100": 0.18411623642262662,
+      "1–10": 0.02367517750505478
+    },
+    "ticket_rank_country": [
+      {
+        "org": "Ctry_ID",
+        "name": "Ctry_ID",
+        "refu_rows": 482,
+        "share_ticket": 0.19388576025744167
+      },
+      {
+        "org": "Ctry_XX",
+        "name": "Unknown origin",
+        "refu_rows": 411,
+        "share_ticket": 0.16532582461786002
+      },
+      {
+        "org": "Ctry_CN",
+        "name": "Ctry_CN",
+        "refu_rows": 220,
+        "share_ticket": 0.08849557522123894
+      },
+      {
+        "org": "Ctry_PE",
+        "name": "Ctry_PE",
+        "refu_rows": 138,
+        "share_ticket": 0.05551086082059534
+      },
+      {
+        "org": "Ctry_DE",
+        "name": "Ctry_DE",
+        "refu_rows": 132,
+        "share_ticket": 0.05309734513274336
+      },
+      {
+        "org": "Ctry_MX",
+        "name": "Ctry_MX",
+        "refu_rows": 115,
+        "share_ticket": 0.04625905068382945
+      },
+      {
+        "org": "Ctry_TH",
+        "name": "Ctry_TH",
+        "refu_rows": 104,
+        "share_ticket": 0.0418342719227675
+      },
+      {
+        "org": "Ctry_AU",
+        "name": "Ctry_AU",
+        "refu_rows": 88,
+        "share_ticket": 0.035398230088495575
+      },
+      {
+        "org": "Ctry_TW",
+        "name": "Ctry_TW",
+        "refu_rows": 76,
+        "share_ticket": 0.030571198712791632
+      },
+      {
+        "org": "Ctry_TO",
+        "name": "Ctry_TO",
+        "refu_rows": 64,
+        "share_ticket": 0.02574416733708769
+      }
+    ],
+    "animal_rank_country": [
+      {
+        "org": "Ctry_TW",
+        "name": "Ctry_TW",
+        "cap_animals": 29166.0,
+        "share_animal": 0.13714205106503033
+      },
+      {
+        "org": "Ctry_CN",
+        "name": "Ctry_CN",
+        "cap_animals": 27481.0,
+        "share_animal": 0.1292189777589693
+      },
+      {
+        "org": "Ctry_PE",
+        "name": "Ctry_PE",
+        "cap_animals": 21162.0,
+        "share_animal": 0.09950627733107631
+      },
+      {
+        "org": "Ctry_MX",
+        "name": "Ctry_MX",
+        "cap_animals": 19501.0,
+        "share_animal": 0.09169605492076927
+      },
+      {
+        "org": "Ctry_XX",
+        "name": "Unknown origin",
+        "cap_animals": 17126.0,
+        "share_animal": 0.08052851836178117
+      },
+      {
+        "org": "Ctry_ID",
+        "name": "Ctry_ID",
+        "cap_animals": 14805.0,
+        "share_animal": 0.06961489631823953
+      },
+      {
+        "org": "Ctry_BE",
+        "name": "Ctry_BE",
+        "cap_animals": 11321.0,
+        "share_animal": 0.05323270795128603
+      },
+      {
+        "org": "Ctry_TR",
+        "name": "Ctry_TR",
+        "cap_animals": 10000.0,
+        "share_animal": 0.04702120656416044
+      },
+      {
+        "org": "Ctry_TH",
+        "name": "Ctry_TH",
+        "cap_animals": 7653.0,
+        "share_animal": 0.035985329383551985
+      },
+      {
+        "org": "Ctry_MG",
+        "name": "Ctry_MG",
+        "cap_animals": 6556.0,
+        "share_animal": 0.030827103023463583
+      }
+    ]
+  }
+}

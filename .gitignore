@@ -1,0 +1,16 @@
+# Data are not distributed with this repository
+data/
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Local build products
+*.aux
+*.log
+*.out

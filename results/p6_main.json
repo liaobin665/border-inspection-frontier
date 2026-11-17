@@ -1,0 +1,414 @@
+{
+  "info": {
+    "n_train": 1830716,
+    "n_valid": 161075,
+    "best_iter": 121,
+    "valid_auc": 0.9153925918728226
+  },
+  "rows": 230791,
+  "refu": 2486,
+  "refused_animals": 212670.0,
+  "auc": 0.8983806911838289,
+  "ap": 0.3868367119596284,
+  "bootstrap": {
+    "reps": 500,
+    "n_species": 6927,
+    "point": {
+      "p_cap_refu": 0.6910699919549477,
+      "p_cap_spec": 0.4517844547891099,
+      "pq_cap_refu": 0.45092518101367657,
+      "pq_cap_spec": 0.8666619645460103,
+      "diff_spec": 0.4148775097569004,
+      "diff_refu": 0.2401448109412711,
+      "jaccard": 0.20024962945627583
+    },
+    "ci95": {
+      "p_cap_refu": [
+        0.6464073817399763,
+        0.7361702334889055
+      ],
+      "p_cap_spec": [
+        0.3159209774886518,
+        0.6119891449076528
+      ],
+      "pq_cap_refu": [
+        0.36865519385228085,
+        0.522874814707523
+      ],
+      "pq_cap_spec": [
+        0.8069804051477165,
+        0.9022383123385819
+      ],
+      "diff_spec": [
+        0.23987837783705973,
+        0.5605788408376935
+      ],
+      "diff_refu": [
+        0.18928253090231295,
+        0.30477499319457857
+      ],
+      "jaccard": [
+        0.16207251782195578,
+        0.2401476847500674
+      ]
+    }
+  },
+  "sweep": {
+    "curve": [
+      {
+        "budget": 0.01,
+        "p_cap_refu": 0.38576025744167336,
+        "p_cap_spec": 0.2300136361499036,
+        "pq_cap_refu": 0.12992759452936445,
+        "pq_cap_spec": 0.46982649174777824
+      },
+      {
+        "budget": 0.02,
+        "p_cap_refu": 0.4448913917940467,
+        "p_cap_spec": 0.26659143273616404,
+        "pq_cap_refu": 0.1902654867256637,
+        "pq_cap_spec": 0.6137019795927964
+      },
+      {
+        "budget": 0.05,
+        "p_cap_refu": 0.5748189863234111,
+        "p_cap_spec": 0.36142850425541917,
+        "pq_cap_refu": 0.3028962188254224,
+        "pq_cap_spec": 0.7499177128885127
+      },
+      {
+        "budget": 0.1,
+        "p_cap_refu": 0.6910699919549477,
+        "p_cap_spec": 0.4517844547891099,
+        "pq_cap_refu": 0.45092518101367657,
+        "pq_cap_spec": 0.8666619645460103
+      },
+      {
+        "budget": 0.15,
+        "p_cap_refu": 0.7751407884151247,
+        "p_cap_spec": 0.5122349179479946,
+        "pq_cap_refu": 0.5659694288012872,
+        "pq_cap_spec": 0.9077490948417737
+      },
+      {
+        "budget": 0.2,
+        "p_cap_refu": 0.825020112630732,
+        "p_cap_spec": 0.6104010908919922,
+        "pq_cap_refu": 0.6387771520514883,
+        "pq_cap_spec": 0.9377815394743029
+      },
+      {
+        "budget": 0.3,
+        "p_cap_refu": 0.8821399839098955,
+        "p_cap_spec": 0.6957821977711948,
+        "pq_cap_refu": 0.7357200321802092,
+        "pq_cap_spec": 0.9682136643626276
+      },
+      {
+        "budget": 0.4,
+        "p_cap_refu": 0.9320193081255028,
+        "p_cap_spec": 0.7655240513471576,
+        "pq_cap_refu": 0.8020917135961384,
+        "pq_cap_spec": 0.9850519584332534
+      },
+      {
+        "budget": 0.5,
+        "p_cap_refu": 0.9577634754625906,
+        "p_cap_spec": 0.8797667748154417,
+        "pq_cap_refu": 0.8515687851971038,
+        "pq_cap_spec": 0.9912493534584097
+      }
+    ],
+    "budget_80spec_p": 0.4877833191068976,
+    "budget_80spec_pq": 0.07286679289920317,
+    "budget_80refu_p": 0.171115858070722,
+    "budget_80refu_pq": 0.3938801773032744,
+    "budget_50spec_p": 0.1398148108028476,
+    "budget_50spec_pq": 0.010022054586184036
+  },
+  "lambda": {
+    "lam": [
+      {
+        "lam": 0.0,
+        "cap_refu": 0.6910699919549477,
+        "cap_spec": 0.4517844547891099
+      },
+      {
+        "lam": 0.125,
+        "cap_refu": 0.6902654867256637,
+        "cap_spec": 0.5009639347345652
+      },
+      {
+        "lam": 0.25,
+        "cap_refu": 0.6794046661303298,
+        "cap_spec": 0.6158602529740913
+      },
+      {
+        "lam": 0.375,
+        "cap_refu": 0.670555108608206,
+        "cap_spec": 0.7638077773075657
+      },
+      {
+        "lam": 0.5,
+        "cap_refu": 0.6444086886564763,
+        "cap_spec": 0.7833403865143179
+      },
+      {
+        "lam": 0.625,
+        "cap_refu": 0.6086082059533386,
+        "cap_spec": 0.8340762683970471
+      },
+      {
+        "lam": 0.75,
+        "cap_refu": 0.5599356395816573,
+        "cap_spec": 0.8388536229839658
+      },
+      {
+        "lam": 0.875,
+        "cap_refu": 0.5136765888978279,
+        "cap_spec": 0.8637325433770631
+      },
+      {
+        "lam": 1.0,
+        "cap_refu": 0.45092518101367657,
+        "cap_spec": 0.8666619645460103
+      }
+    ]
+  },
+  "composition": {
+    "p": {
+      "rows": 23079,
+      "share_band1": 0.569652064647515,
+      "share_band2": 0.35664456865548766,
+      "share_band3": 0.06148446639802418,
+      "share_band4": 0.012218900298973092,
+      "share_live_desc": 0.630529918973959,
+      "share_refu_rows": 0.0744399670696304,
+      "n_countries": 142,
+      "n_species": 3880,
+      "median_qty": 10.0,
+      "refused_animals": 96081.0,
+      "animal_share_top1row": 0.06205181045159813,
+      "top5_refused_species": [
+        [
+          "Eriocheir",
+          141
+        ],
+        [
+          "Eriocheir sinensis",
+          36
+        ],
+        [
+          "Hippocampus",
+          25
+        ],
+        [
+          "Centruroides",
+          19
+        ],
+        [
+          "Holothuria",
+          17
+        ]
+      ],
+      "top5_animal_species": [
+        [
+          "Eriocheir",
+          20053.0
+        ],
+        [
+          "Eriocheir sinensis",
+          6210.0
+        ],
+        [
+          "Lithobates catesbeianus",
+          5969.0
+        ],
+        [
+          "Dreissena",
+          3132.0
+        ],
+        [
+          "Nymphalidae",
+          3000.0
+        ]
+      ],
+      "top5_group": [
+        [
+          "Echinoderms and Cnidaria",
+          6571
+        ],
+        [
+          "Reptiles",
+          3973
+        ],
+        [
+          "Lepidoptera",
+          2781
+        ],
+        [
+          "Terrestrial Mammals",
+          2734
+        ],
+        [
+          "Fish",
+          1916
+        ]
+      ]
+    },
+    "pq": {
+      "rows": 23079,
+      "share_band1": 0.04896226006326097,
+      "share_band2": 0.24030503921313748,
+      "share_band3": 0.32115776246804456,
+      "share_band4": 0.389574938255557,
+      "share_live_desc": 0.7522856276268469,
+      "share_refu_rows": 0.04857229516010226,
+      "n_countries": 123,
+      "n_species": 2207,
+      "median_qty": 482.0,
+      "refused_animals": 184313.0,
+      "animal_share_top1row": 0.05425553270794789,
+      "top5_refused_species": [
+        [
+          "Eriocheir",
+          141
+        ],
+        [
+          "Eriocheir sinensis",
+          36
+        ],
+        [
+          "Hippocampus",
+          24
+        ],
+        [
+          "Centruroides",
+          19
+        ],
+        [
+          "Holothuria",
+          17
+        ]
+      ],
+      "top5_animal_species": [
+        [
+          "Eriocheir",
+          20053.0
+        ],
+        [
+          "Podocnemis unifilis",
+          11260.0
+        ],
+        [
+          "Caridina",
+          10788.0
+        ],
+        [
+          "Hirudo verbana",
+          10000.0
+        ],
+        [
+          "Anagyrus pseudococci",
+          10000.0
+        ]
+      ],
+      "top5_group": [
+        [
+          "Fish",
+          4513
+        ],
+        [
+          "Crustaceans and Molluscs",
+          4018
+        ],
+        [
+          "Reptiles",
+          3697
+        ],
+        [
+          "Echinoderms and Cnidaria",
+          1871
+        ],
+        [
+          "Lepidoptera",
+          1779
+        ]
+      ]
+    },
+    "detail": {
+      "shared_rows": 7701,
+      "refused_rows_p": 1718,
+      "refused_rows_pq": 1121,
+      "refused_rows_shared": 1025,
+      "share_p_refused_also_pq": 0.5966239813736903,
+      "spearman_p_vs_pq": 0.28847876756978574,
+      "animals_shared": 91899.0,
+      "animals_p_only": 4182.0,
+      "animals_pq_only": 92414.0,
+      "animals_share_shared": 0.432120186203978,
+      "animals_share_p_only": 0.019664268585131893,
+      "animals_share_pq_only": 0.4345417783420323
+    }
+  },
+  "concentration": {
+    "refused_rows": 2486,
+    "refused_animals": 1297480.0,
+    "top1": 0.8285291488115424,
+    "top10": 0.8882849831981996,
+    "top100": 0.9404992755186978,
+    "share_rows_for_50pct": 0.00040225261464199515,
+    "gini": 0.9752610872078262,
+    "max_row": 1075000.0
+  },
+  "alt_score": {
+    "hist_sp": {
+      "auc": 0.8166871608975044,
+      "p_cap_refu": 0.47103781174577636,
+      "p_cap_spec": 0.40431184464193354,
+      "pq_cap_refu": 0.21962992759452937,
+      "pq_cap_spec": 0.8271547467908027,
+      "jaccard": 0.16805425513070324,
+      "p_in_pq": 0.2877507690974479
+    },
+    "hist_sporg": {
+      "auc": 0.8304235287219255,
+      "p_cap_refu": 0.37570394207562346,
+      "p_cap_spec": 0.3649692011097005,
+      "pq_cap_refu": 0.18704746580852777,
+      "pq_cap_spec": 0.8002633187567593,
+      "jaccard": 0.13074153009480413,
+      "p_in_pq": 0.2312491875731184
+    },
+    "hist_port": {
+      "auc": 0.638520014659787,
+      "p_cap_refu": 0.2948511665325825,
+      "p_cap_spec": 0.21153430197018855,
+      "pq_cap_refu": 0.0752212389380531,
+      "pq_cap_spec": 0.6656604128461936,
+      "jaccard": 0.10344003251177357,
+      "p_in_pq": 0.18748645955197366
+    }
+  },
+  "shipment": {
+    "n_shipments": 19878,
+    "refusal_rate": 0.031341181205352654,
+    "rows_per_shipment": 5.870007042962069,
+    "p_any": {
+      "p_cap_refu": 0.6645264847512039,
+      "p_cap_spec": 0.03754589786538826,
+      "pq_cap_refu": 0.6645264847512039,
+      "pq_cap_spec": 0.03754589786538826,
+      "jaccard": 1.0,
+      "p_in_pq": 1.0
+    },
+    "p_qty": {
+      "p_cap_refu": 0.3611556982343499,
+      "p_cap_spec": 0.9732666078073816,
+      "pq_cap_refu": 0.3611556982343499,
+      "pq_cap_spec": 0.9732666078073816,
+      "jaccard": 1.0,
+      "p_in_pq": 1.0
+    }
+  }
+}
